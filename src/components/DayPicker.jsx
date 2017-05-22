@@ -574,19 +574,12 @@ export default class DayPicker extends React.Component {
       },
     );
 
-<<<<<<< HEAD
-    const newMonthHeight = Math.max(...heights) + MONTH_PADDING;
-
-    if (newMonthHeight !== calculateDimension(this.transitionContainer, 'height')) {
-      this.monthHeight = newMonthHeight;
-=======
     const newMonthHeight = Math.max(...heights) + MONTH_PADDING + 100;
 
     if (newMonthHeight !== calculateDimension(this.transitionContainer, 'height')) {
 
       this.monthHeight = newMonthHeight;
       console.log(newMonthHeight);
->>>>>>> TimePicker v1
       this.transitionContainer.style.height = `${newMonthHeight}px`;
     }
   }
@@ -839,11 +832,8 @@ export default class DayPicker extends React.Component {
                 isFocused={shouldFocusDate}
                 focusedDate={focusedDate}
                 phrases={phrases}
-<<<<<<< HEAD
-=======
                 hasHourPicker={!!this.props.hourPickerEl}
                 hourPickerEl={this.props.hourPickerEl}
->>>>>>> TimePicker v1
               />
               {verticalScrollable && this.renderNavigation()}
             </div>

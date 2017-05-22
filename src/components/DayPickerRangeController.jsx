@@ -352,10 +352,6 @@ export default class DayPickerRangeController extends React.Component {
 
     if (focusedInput === START_DATE) {
       onFocusChange(END_DATE);
-<<<<<<< HEAD
-=======
-      //onFocusChange(START_HOUR);
->>>>>>> TimePicker v1
 
       startDate = day;
 
