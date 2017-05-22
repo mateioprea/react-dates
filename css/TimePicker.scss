@@ -1,0 +1,18 @@
+.hour-picker {
+  text-align: center;
+  margin-top: 10px;
+
+  .hpicker {
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    border: 1px solid #e4e7e7;
+    box-sizing: border-box;
+    color: #565a5c;
+    font-family: Helvetica, "sans-serif";
+    font-size: 14px;
+  }
+  .decorator {
+    margin: 0 5px;
+  }
+}

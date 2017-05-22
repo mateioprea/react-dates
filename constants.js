@@ -5,6 +5,8 @@ module.exports = {
 
   START_DATE: 'startDate',
   END_DATE: 'endDate',
+  START_HOUR: 'startHour',
+  END_HOUR: 'endHour',
 
   HORIZONTAL_ORIENTATION: 'horizontal',
   VERTICAL_ORIENTATION: 'vertical',

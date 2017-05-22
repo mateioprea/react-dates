@@ -362,6 +362,8 @@ export default class DateRangePicker extends React.Component {
           onBlur={this.onDayPickerBlur}
           phrases={phrases}
           isRTL={isRTL}
+          hasHourPicker={!!this.props.children}
+          hourPickerEl={this.props.children}
         />
 
         {withFullScreenPortal && (

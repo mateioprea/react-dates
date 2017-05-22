@@ -195,6 +195,8 @@ export default class DateRangePickerInput extends React.Component {
           required={required}
           readOnly={readOnly}
           showCaret={showCaret}
+          hasHourPicker={!!this.props.hourPickerEl}
+          hourPickerEl={this.props.hourPickerEl}
 
           onChange={onStartDateChange}
           onFocus={onStartDateFocus}

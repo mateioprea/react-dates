@@ -276,6 +276,8 @@ export default class DateRangePickerInputController extends React.Component {
         onArrowDown={onArrowDown}
         onQuestionMark={onQuestionMark}
         isRTL={isRTL}
+        hasHourPicker={!!this.props.hourPickerEl}
+        hourPickerEl={this.props.hourPickerEl}
       />
     );
   }

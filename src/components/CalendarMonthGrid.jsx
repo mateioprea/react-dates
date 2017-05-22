@@ -232,6 +232,9 @@ export default class CalendarMonthGrid extends React.Component {
               focusedDate={isVisible ? focusedDate : null}
               isFocused={isFocused}
               phrases={phrases}
+              monthIndex={i}
+              hasHourPicker={!!this.props.hourPickerEl}
+              hourPickerEl={this.props.hourPickerEl}
             />
           );
         })}

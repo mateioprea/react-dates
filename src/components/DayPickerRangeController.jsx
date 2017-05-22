@@ -28,6 +28,9 @@ import ScrollableOrientationShape from '../shapes/ScrollableOrientationShape';
 import {
   START_DATE,
   END_DATE,
+
+  START_HOUR,
+  END_HOUR,
   HORIZONTAL_ORIENTATION,
   VERTICAL_SCROLLABLE,
   DAY_SIZE,
@@ -349,6 +352,10 @@ export default class DayPickerRangeController extends React.Component {
 
     if (focusedInput === START_DATE) {
       onFocusChange(END_DATE);
+<<<<<<< HEAD
+=======
+      //onFocusChange(START_HOUR);
+>>>>>>> TimePicker v1
 
       startDate = day;
 
@@ -798,6 +805,8 @@ export default class DayPickerRangeController extends React.Component {
         showKeyboardShortcuts={showKeyboardShortcuts}
         phrases={phrases}
         isRTL={isRTL}
+        hasHourPicker={!!this.props.hourPickerEl}
+        hourPickerEl={this.props.hourPickerEl}
       />
     );
   }

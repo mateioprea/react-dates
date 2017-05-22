@@ -146,6 +146,7 @@ export default class CalendarMonth extends React.Component {
             ))}
           </tbody>
         </table>
+          {React.cloneElement(this.props.hourPickerEl, {...this.props})}
       </div>
     );
   }
