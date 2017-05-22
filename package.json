@@ -1,5 +1,5 @@
 {
-  "name": "@mateioprea/react-dates",
+  "name": "@mateiokapi/react-dates",
   "version": "12.1.0",
   "description": "A responsive and accessible date range picker component built with React",
   "main": "index.js",
